@@ -163,6 +163,12 @@ When they are needed, comments should be used to explain **why** a particular pi
 
 Block comments should generally be avoided, as code should be as self-documenting as possible, with only the need for intermittent, few-line explanations. *Exception: This does not apply to those comments used to generate documentation.*
 
+If you have an unfinished piece of code, remember to leave a TODO comment in the format below. Never leave unfinished code without any comment. By adding username to the TODO it's easier to search for the TODOs that belong to particular committer.
+
+```
+// TODO(username): Add support for XYZ
+```
+
 ## Naming
 
 Apple naming conventions should be adhered to wherever possible, especially those related to [memory management rules](https://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/MemoryMgmt/Articles/MemoryMgmt.html) ([NARC](http://stackoverflow.com/a/2865194/340508)).
